@@ -5,3 +5,4 @@ Divida cada sessão do HTML com divs, não como elementos pré-determinados, com
 Preste bastante atenção quando a parte do Js chegar no vídeo, é muito importante
 
 teste
+oi
