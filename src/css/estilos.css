@@ -1,0 +1,96 @@
+body {
+    margin: auto;
+    background-color: rgb(24, 23, 23);
+    color: #f9f9f9fa;
+}
+
+.cabessalho {
+    background: #eedfdf;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+img.logo-brawl {
+    width: 55px;
+}
+
+img.imagens-botao {
+    width: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+img.gif {
+    width: 100px;
+}
+
+.cabessalho.logo:hover,
+.cabessalho .imagens-botao:hover,
+main .cartao:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+main {
+    background-color: rgb(160, 155, 155);
+    color: rgb(38, 38, 38);
+    padding: 25px;
+}
+
+.listagem-brawlers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.cartao {
+    background-color: rgb(183, 183, 183);
+    color: rgb(0, 0, 0);
+    width: 200px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 15px;
+    transition: 0.2s ease-in-out;
+}
+
+main .cartao:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    background-color: #060d3efa;
+    color: #eedfdf;
+}
+.modo-escuro .cartao:hover{
+    background-color: rgb(194, 194, 194);
+    color:rgb(23, 23, 23) ;
+}
+.modo-escuro .cartao{
+    background-color: rgb(33, 33, 33);
+    color: #fffffffa;
+}
+
+main.modo-escuro{
+    background-color: black;
+}
+
+.modo-escuro .cabessalho {
+        background-color: rgb(13, 13, 13);
+    }
+
+.informacoes{
+    background-color:aqua;
+    color: black;
+    border-radius: 15px;
+    padding: 5px;
+}
+.informacoes:hover{
+    background-color: aqua;
+    
+
+}
+
+

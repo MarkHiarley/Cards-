@@ -1,0 +1,6 @@
+Estude sobre classes mãe e classes filhas no HTML
+Estude sobre como utilizar certos elementos CSS(display,flex-direction,font-size)
+Aprenda como importar fontes utilizando o Google fonts 
+Divida cada sessão do HTML com divs, não como elementos pré-determinados, como "main".
+Preste bastante atenção quando a parte do Js chegar no vídeo, é muito importante
+
