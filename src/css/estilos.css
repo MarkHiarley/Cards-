@@ -61,7 +61,7 @@ main {
 main .cartao:hover {
     transform: scale(1.05);
     cursor: pointer;
-    background-color: #060d3efa;
+    background-color: #0a1460fa;
     color: #eedfdf;
 }
 
@@ -107,9 +107,10 @@ main .cartao .tipo {
     border-radius: 10px;
 }
 
-main .cartao {
-    max-height: 250px;
+main .descricao {
+    max-height: 90px;
     overflow-y: scroll;
     font-size: 14px;
     padding: 10px;
+    
 }

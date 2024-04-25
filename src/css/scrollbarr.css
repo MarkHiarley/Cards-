@@ -1,6 +1,7 @@
 /* Estilize a barra de rolagem */
 *::-webkit-scrollbar {
     width: 10px;
+    border-radius: 10px;
 }
 
 /* Estilize o 'track' da barra de rolagem */
