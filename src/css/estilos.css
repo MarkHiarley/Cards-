@@ -12,11 +12,11 @@ body {
 }
 
 img.logo-brawl {
-    width: 55px;
+    width: 100px;
 }
 
 img.imagens-botao {
-    width: 30px;
+    width: 60px;
     border: none;
     cursor: pointer;
 }
@@ -113,4 +113,12 @@ main .descricao {
     font-size: 14px;
     padding: 10px;
     
+}
+.botaotema{
+    border: 0;
+    background-color: #eedfdf;
+    width: 60px;
+}
+.modo-escuro .botaotema{
+    background-color: black;
 }
