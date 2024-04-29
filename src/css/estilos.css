@@ -105,6 +105,7 @@ main .cartao .tipo {
     gap: 150px;
     padding: 8px;
     border-radius: 10px;
+    flex-direction: row;
 }
 
 main .descricao {
@@ -122,3 +123,4 @@ main .descricao {
 .modo-escuro .botaotema{
     background-color: black;
 }
+
