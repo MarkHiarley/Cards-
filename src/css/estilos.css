@@ -120,7 +120,27 @@ main .descricao {
     background-color: #eedfdf;
     width: 60px;
 }
+
+
 .modo-escuro .botaotema{
-    background-color: black;
+    background-color:transparent;
 }
 
+.addCards{
+    width: 80px;
+    height: 80px;
+    font-size: 50px; 
+    border-radius: 5px;
+}
+.addCards:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.modo-escuro .addCards{
+    background-color: rgb(72, 72, 72);
+    color: white;
+    
+}
+.botaodeadicionar{
+    padding-top: 10px;
+}

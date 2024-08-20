@@ -4,6 +4,7 @@ console.log(botaoAlterarTema);
 const body = document.querySelector('body'); 
 
 botaoAlterarTema.addEventListener("click", () => {
-  body.classList.add("modo-escuro"); 
+  body.classList.add("modo-escuro");
+
 });
 

@@ -21,9 +21,9 @@
 
 // Dados de exemplo de um cliente
 const cardtemporario = {
-    nome: "Sike",
+    nome: "ike",
     id: "001",
-    classes: "lendario",
+    classes: "rio",
     cidad0e: "melhor lendario"
 };
 
@@ -34,12 +34,25 @@ const getLocalStorage = () => JSON.parse(localStorage.getItem('dbCards')) ?? [];
 const setLocalStorage = (db_Cards) => localStorage.setItem("dbCards", JSON.stringify(db_Cards));
 
 // CRUD - Create (criar um novo cliente)
-const createClient = (cards) => {
+const criarcard = (cards) => {
     const db_Cards = getLocalStorage();
     db_Cards.push(cards);
     setLocalStorage(db_Cards);
 };
 
+//LER A PORRA DO BANCO QUE TEM OS CARDS
+const Lercards = () => getLocalStorage()
 
+//ATUALIZRA O CARALHO DOS CARDS
+const atualizardados = (index, cards) => {
+    const db_Cards = Lercards()
+    db_Cards[index] = cards
+    setLocalStorage(db_Cards)
+}
 
-
+//DELETA AS MERDAS DOS VALORES
+const deletar = (index) => {
+    const db_Cards = Lercards()
+    db_Cards.splice(index, 1 )
+    setLocalStorage(db_Cards)
+}
