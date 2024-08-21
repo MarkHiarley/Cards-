@@ -1,0 +1,13 @@
+.conteudo_modal{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+}
+.fechar{
+    cursor: pointer;
+
+}
+#modalformulario{
+    padding-left: 30px;
+    border: 1 px solid black;
+}
